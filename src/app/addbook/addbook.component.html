@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="global-container">
+        <div class="card login-form">
+            <div class="card-body">
+                <h1 class="card-title text-center">Add Book</h1>
+                <div class="card-text">
+                    <form class="form-class" [formGroup]="createBook" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <label for="">Book Title</label>
+                            <input type="text" class="form-control form-control-sm" formControlName="bookTitle">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Book Category</label>
+                            <input type="text" class="form-control form-control-sm" formControlName="bookCategory">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Book Price</label>
+                            <input type="number" class="form-control form-control-sm" formControlName="bookPrice">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Book Author</label>
+                            <input type="text" class="form-control form-control-sm" formControlName="bookAuthor">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Book Publisher</label>
+                            <input type="text" class="form-control form-control-sm" formControlName="bookPublisher">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Book Publish Date</label>
+                            <input type="date" class="form-control form-control-sm" formControlName="publishDate">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Book Image</label>
+                            <input type="file" class="form-control form-control-sm">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Content</label>
+                            <textarea class="form-control form-control-sm" cols="20" rows="5"></textarea>
+                        </div>  
+                      <button type="submit" class="btn btn-primary btn-lg">Save Book</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

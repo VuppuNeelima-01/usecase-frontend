@@ -1,0 +1,13 @@
+
+.card-title{
+  font-weight: 700;
+  padding-top: 10px;
+  height: 80px;
+  font-size: 60px;
+  
+  text-align: center;
+  background-color: darkblue;
+}
+.div-color{
+  background-color:cornflowerblue;
+}

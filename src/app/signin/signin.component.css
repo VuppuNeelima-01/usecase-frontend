@@ -1,0 +1,90 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+   
+    background-image: url('../../assets/images/loder.jfif'); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    overflow:hidden ;
+    height:100vh;
+   width: 100vw;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(228, 236, 236);
+}
+
+.font-color{
+color: orangered;
+}
+.form-class{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 50px;
+}
+.login-form{
+    width: 550px;
+    height: 550px;
+    margin: 20px;
+    background-color: rgb(5, 38, 59);
+    border-radius: 10px !important;
+}
+
+/*html,
+body{
+    height: 100vh;
+   background-image: url('../../assets/images/alfons-morales-YLSwjSy7stw-unsplash.jpg');
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color: cadetblue;
+}
+
+.form-class{
+    padding-top: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 50px;
+}
+
+.login-form{
+    width: 380px;
+    height: 450px;
+    margin: 20px;
+   
+    border-radius: 10px !important;
+    background-color: blanchedalmond;
+}
+.card-title{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.btn{
+   
+   
+   
+    width: 100%;
+   margin-top:70px;
+    
+    padding:10px;
+    background-color: rgb(141, 137, 180);
+    border-radius: 10px;
+    text-decoration:none;
+    color:white;
+    background-color: cadetblue;
+    font-weight: 600;
+    display:block;
+   
+}*/

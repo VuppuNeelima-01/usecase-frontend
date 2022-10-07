@@ -1,0 +1,59 @@
+<!--<html>
+<body>
+<div class="global-container">
+    <div class="card login-form">
+    <div class="col-md-8 offset-md-2">
+        <div class="card-body">
+            <h1 class="card-title text-center">Upload Patient Details</h1>
+            <div class="card-text">
+    <form  class="form-class" >
+        <div class="text-center">
+            <input class="form-control" type="file" 
+                    (change)="onChange($event)">
+          
+            <button (click)="onUpload()" 
+                class="btn btn-success">
+                Upload
+            </button>
+        </div>
+       <!--Shareable short link of  uploaded file 
+<div class="container text-center jumbotron"
+    *ngIf="shortLink">
+    <h2> Visit Here</h2>
+    <a href="{{shortLink}}">{{shortLink}}</a>
+</div>
+  
+<!--Flag variable is used here
+<div class="container" *ngIf="loading">
+    <h3>Loading ...</h3>
+</div>
+    </form>
+</div>
+</div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>-->
+
+<div class="text-center">
+    <input class="form-control" type="file" 
+            (change)="onChange($event)">
+  
+    <button (click)="onUpload()" 
+        class="btn btn-success">
+        Upload
+    </button>
+</div>
+  
+<!--Shareable short link of  uploaded file 
+<div class="container text-center jumbotron"
+    *ngIf="shortLink">
+    <h2> Visit Here</h2>
+    <a href="{{shortLink}}">{{shortLink}}</a>
+</div>
+  
+Flag variable is used here
+<div class="container" *ngIf="loading">
+    <h3>Loading ...</h3>
+</div>-->
